@@ -36,8 +36,8 @@ img {
 .site-logo {
   background: url(../img/logo.png) 50% no-repeat;
   background-size: cover;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   margin: 15px auto;
 }
 
