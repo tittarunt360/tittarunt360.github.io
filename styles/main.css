@@ -4,7 +4,7 @@ img {
 
 .site-header {
   position: relative
-   background-color:#515fbf ;
+   background-color:#35df7d ;
 }
 
 .site-header .mdl-layout__header-row {
@@ -36,8 +36,8 @@ img {
 .site-logo {
   background: url(../img/logo.png) 50% no-repeat;
   background-size: cover;
-  height: 200px;
-  width: 200px;
+  height: 120px;
+  width: 120px;
   margin: 15px auto;
 }
 
