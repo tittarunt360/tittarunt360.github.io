@@ -33,10 +33,10 @@ img {
 }
 
 .site-logo {
-  background: url(../img/logo.png) 50% no-repeat;
+  background: url(../img/logo.png) 100% no-repeat;
   background-size: cover;
-  height: 250px;
-  width: 250px;
+  height: 120px;
+  width: 120px;
   margin: 15px auto;
 }
 
