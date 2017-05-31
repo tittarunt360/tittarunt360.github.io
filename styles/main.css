@@ -4,7 +4,8 @@ img {
 
 .site-header {
   position: relative;
-   background-color:#35df7d;
+   background-color:#5cd6b8;
+   
 }
 
 .site-header .mdl-layout__header-row {
@@ -15,18 +16,44 @@ img {
 
 .site-description {
   display: block;
-  font-size: 14px;
-  text-align: center;
+  font-size: 30px;
+  font-family:Arial;
+  text-align:center;
   font-weight: 400;
-  margin-bottom: 10px;
-}
+  color:whitesmoke;
+  margin-top: 20px;
+  }
 
+  .background-color{background-color: #29a385;
+  height: 50px;
+  margin-top: 0px;}
+  .cheating-height{background-color: white;
+  height: 100px;
+  margin-top: 250px;}
+
+  .spacer{background-color: white;
+  height: 43px;
+  width:100%;
+  position: relative;
+  background-color:#5cd6b8 }
+
+  .site-moto {
+  display: block;
+  font-size: 30px;
+  font-family: Arial;
+  text-align:center;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color:#2bade1;
+  
+}
 .is-compact .mdl-layout__title span {
   display: none;
 }
 
 .site-logo-row {
-  min-height: 200px;
+  min-height:150px;
 }
 
 .is-compact .site-logo-row {
@@ -51,12 +78,18 @@ img {
   background-color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   height: 45px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  
 }
 
 .site-navigation-row .mdl-navigation {
   text-align: center;
   max-width: 900px;
   width: 100%;
+  position: fixed;
+ 
 }
 
 .site-navigation-row .mdl-navigation__link {
@@ -64,20 +97,23 @@ img {
   flex: 1;
   line-height: 42px;
   color: #fff;
+  text-align: center;
 }
 
 .site-navigation-row .is-active {
-  position: relative;
+  text-align: center;
   font-weight: bold;
   opacity: 1;
 }
 
 .site-navigation-row .mdl-navigation__link:hover {
   opacity: 1;
+  text-align: center;
 }
 
 .mdl-layout__header .mdl-layout__drawer-button {
   color: #fff;
+  text-align: center;
 }
 
 .mdl-layout__content {
@@ -91,6 +127,7 @@ img {
 
 .page-content {
   padding-bottom: 2em;
+  color: #334ba6;
 }
 
 .site-max-width {
@@ -103,9 +140,9 @@ img {
 }
 
 .welcome-card > .mdl-card__title {
-  color: #fff;
+  color: #3E4EB8;
   height: 290px;
-  background: url("../img/cover.jpg") center/cover;
+  text-align: center;
 }
 
 .event-card {
